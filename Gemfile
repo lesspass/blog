@@ -4,4 +4,5 @@ gem "tale"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-paginate", "~> 1.1"
+  gem "jekyll-redirect-from"
 end

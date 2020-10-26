@@ -2,8 +2,10 @@
 layout: post
 title: "LessPass How Does It Work?"
 author: "Guillaume Vincent"
+redirect_from:
+  - /lesspass-how-it-works-dde742dd18a4
+  - /lesspass-how-it-works-dde742dd18a4#.vbgschksh
 ---
-
 
 Managing your Internet passwords is not easy. You probably use a password manager to help you. The system is simple, the tool generates random passwords whenever you need them and saves them into a file protected with a strong password.
 
@@ -11,13 +13,13 @@ This system is very robust, you only need to remember one password to rule them 
 
 I have used this system for a long time. But every time I met the same problems:
 
- * How do I synchronize this file on all my devices ?
- * How do I access a password on my parents’ computer without installing my password manager ?
- * How do I access a password on my phone, without any installed app ?
+- How do I synchronize this file on all my devices ?
+- How do I access a password on my parents’ computer without installing my password manager ?
+- How do I access a password on my phone, without any installed app ?
 
 So I searched for a simpler solution and as none satisfied all those criteria I created LessPass.
 
- * I want a password manager with open source code, that does not require synchronization.
+- I want a password manager with open source code, that does not require synchronization.
 
 The trick is to compute passwords rather than generate and store random passwords.
 
@@ -25,9 +27,9 @@ LessPass generates unique passwords for websites, email accounts, or anything el
 
 LessPass is different from other password managers that you can find on the Internet because:
 
- * It does not save your passwords in a database ;
- * It does not need to sync your devices ;
- * It is open source (source code can be audited).
+- It does not save your passwords in a database ;
+- It does not need to sync your devices ;
+- It is open source (source code can be audited).
 
 The system uses a pure function, i.e. a function that given the same parameters will always give the same result. In our case, given a login, a master password, a site and options it will return a unique password.
 
@@ -56,11 +58,11 @@ Try it on your phone, on another computer, even offline, it will give the same r
 
 Yes, as soon as you have access to a browser it’s available to you. But we went beyond that and added:
 
- * an Android application ;
- * a Chrome extension ;
- * a Firefox extension ;
- * a command line interface ;
- * and the official site (for more security use browser extensions).
+- an Android application ;
+- a Chrome extension ;
+- a Firefox extension ;
+- a command line interface ;
+- and the official site (for more security use browser extensions).
 
 ## What about complex password rules?
 
@@ -84,7 +86,7 @@ Here is what a profile looks like:
 Below is a user connecting to it’s account to use his bank’s account profile:
 The connected version can help you save complex profiles.
 
-![lesspass demo](../images/2016-10-19-how-does-it-works/demo-lesspass-connected.gif)
+![lesspass connected demo](../images/2016-10-19-how-does-it-works/demo-lesspass-connected.gif)
 
 ## Self Hosted
 
@@ -99,10 +101,10 @@ Counter field
 
 ## How to contribute?
 
- * If you are a scientist, help us write a white paper ;
- * Send pull requests to improve or fix the source code ;
- * Rate the Firefox or the Chrome extension ;
- * Send us to the stars on github ;
+- If you are a scientist, help us write a white paper ;
+- Send pull requests to improve or fix the source code ;
+- Rate the Firefox or the Chrome extension ;
+- Send us to the stars on github ;
 
 ## Open Culture
 

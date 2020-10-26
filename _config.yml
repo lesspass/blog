@@ -18,12 +18,13 @@ sass:
   style: compressed
 
 permalink: /:year-:month-:day/:title
-paginate: 3
+paginate: 5
 
 # Gems
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-redirect-from
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
