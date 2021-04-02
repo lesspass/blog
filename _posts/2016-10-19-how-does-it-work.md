@@ -27,7 +27,7 @@ LessPass generates unique passwords for websites, email accounts, or anything el
 
 LessPass is different from other password managers that you can find on the Internet because:
 
-- It does not save your passwords in a database ;
+- It can operate completely offline and without a database ;
 - It does not need to sync your devices ;
 - It is open source (source code can be audited).
 
@@ -68,7 +68,7 @@ Yes, as soon as you have access to a browser it’s available to you. But we wen
 
 Sometimes sites have specific password rules. For instance, some banks only accept passwords made of numbers. So you have to remember both a strong password and complex rules.
 
-Well, we built a “connected” version to tackle that. It works by saving your password’s profile, i.e. everything **except the master password and the generated password** to be able to generate the password. Then, next time you need this password you just have to select the profile and type the master password.
+Well, we built a "connected" version to tackle that. It works by saving your password’s profile, i.e. everything **except the master password and the generated password** to be able to generate the password. Then, next time you need this password you just have to select the profile and type the master password.
 
 Here is what a profile looks like:
 
@@ -85,6 +85,8 @@ Here is what a profile looks like:
 
 Below is a user connecting to it’s account to use his bank’s account profile:
 The connected version can help you save complex profiles.
+
+Note that the use of LessPass Database is not necessary.
 
 ![lesspass connected demo](../images/2016-10-19-how-does-it-works/demo-lesspass-connected.gif)
 

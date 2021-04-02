@@ -19,7 +19,7 @@ So ein System ist sehr zuverlässig. Man muss sich nur dieses eine Passwort merk
 * Wie kann er auf seinem Telefon auf ein Passwort zugreifen, ohne jegliche installierte App?
 
 Also suchte [Guillaume](https://blog.lesspass.com/@guillaume20100) nach einer einfacheren Lösung und -weil keine alle Kriterien erfüllte- entwickelte schließlich LessPass.
-> # “Ich möchte einen Passwort-Manager aus open source code, der keine Synchronisation erfordert.”
+> # "Ich möchte einen Passwort-Manager aus open source code, der keine Synchronisation erfordert."
 
 Der Trick besteht darin, Passwörter zu errechnen, anstatt zufällige Passwörter zu erstellen und zu speichern.
 
@@ -73,7 +73,7 @@ Ja, sofern Sie Zugang zu einem Browser haben, steht es Ihnen zur Verfügung. Abe
 
 Manchmal haben Webseiten besondere Passwort-Regeln. Beispielsweise akzeptieren manche Banken nur Passwörter, die aus Zahlen bestehen. Dann muss man sich beides merken: ein starkes Passwort und komplexe Regeln.
 
-Um dem zu begegnen, wurde eine* „verbundene“* Version entwickelt. Diese speichert Ihr *Passwort-Profil*, d.h. alles zur Erstellung des Passworts Erforderliche, **außer dem *Masterpasswort* und dem erstellten Passwort.** Wenn Sie das Passwort dann beim nächsten Mal benötigen, müssen Sie nur das *Profil* auswählen und das *Masterpasswort* eingeben.
+Um dem zu begegnen, wurde eine* „verbundene"* Version entwickelt. Diese speichert Ihr *Passwort-Profil*, d.h. alles zur Erstellung des Passworts Erforderliche, **außer dem *Masterpasswort* und dem erstellten Passwort.** Wenn Sie das Passwort dann beim nächsten Mal benötigen, müssen Sie nur das *Profil* auswählen und das *Masterpasswort* eingeben.
 
 So sieht ein *Profil* aus:
 
