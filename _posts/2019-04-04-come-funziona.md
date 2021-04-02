@@ -21,7 +21,7 @@ Ho usato questo sistema per molto tempo. Ma ogni volta avevo i seguenti problemi
 Ho cercato dunque una soluzione più semplice dato che nessuna rispettava i suddetti criteri e ho creato LessPass.
 > # Voglio un password manager con codice open source che non richieda sincronizzazione alcuna
 
-Il trucco sta nel “calcolare” piuttosto che nel generare e memorizzare password casuali.
+Il trucco sta nel "calcolare" piuttosto che nel generare e memorizzare password casuali.
 
 **LessPass calcola password uniche per siti web, account di posta elettronica o qualunque altra cosa basata su una master password e un’informazione che tu conosci.**
 
@@ -37,7 +37,7 @@ Il sistema usa una ***funzione pura*** ovvero una funzione che, dati gli stessi 
 
 Nessun bisogno di salvare le tue password in un file criptato. L’unica cosa di cui hai bisogno è avere questo strumento a disposizione per **ricalcolare** una password dai dati che conosci (fondamentalmente il login).
 
-Al fine di alzare la difficoltà di “violazione” della tua master password, la derivazione della password deve richiedere molto tempo, soprattutto tramite metodo brute force. Dunque LessPass usa l’algoritmo **PBKDF2** con 100,000 iterazioni e una funzione di hash **sha-256**.
+Al fine di alzare la difficoltà di "violazione" della tua master password, la derivazione della password deve richiedere molto tempo, soprattutto tramite metodo brute force. Dunque LessPass usa l’algoritmo **PBKDF2** con 100,000 iterazioni e una funzione di hash **sha-256**.
 
 ![](../images/2016-10-19-how-does-it-works/HowItWorks.png)
 
@@ -73,7 +73,7 @@ Sì, è a portata di browser. Ma siamo andati oltre a ciò e abbiamo aggiunto:
 
 A volte i siti hanno regole di password specifiche. Per esempio, alcune banche accettano esclusivamente password fatte di numeri. Dunque si necessita di una password efficace e di regole complesse.
 
-A tal proposito abbiamo sviluppato una versione “***connessa***” per arginare la problematica. Il meccanismo prevede il salvataggio del profilo della password, ovvero tutto **TRANNE** la master password e la password generata- al fine di riuscire a generare correttamente la password. Dunque, la prossima volta che si avrà bisogno di quella specifica password, si sceglierà semplicemente il profilo e si inserirà la master password.
+A tal proposito abbiamo sviluppato una versione "***connessa***" per arginare la problematica. Il meccanismo prevede il salvataggio del profilo della password, ovvero tutto **TRANNE** la master password e la password generata- al fine di riuscire a generare correttamente la password. Dunque, la prossima volta che si avrà bisogno di quella specifica password, si sceglierà semplicemente il profilo e si inserirà la master password.
 
 Ecco come viene rappresentato un profilo:
 
