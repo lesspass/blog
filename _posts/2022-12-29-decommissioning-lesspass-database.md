@@ -4,9 +4,7 @@ title: "Decommissioning LessPass Database"
 author: "Guillaume Vincent"
 ---
 
-TLDR:
- - LessPass Database server will be turned off on March 1th, 2023
- - The static version of LessPass, the web extension and the mobile versions remain in place.
+TLDR: LessPass Database server will be turned off on March 1th, 2023. The static version of LessPass, the web extension and the mobile versions remain in place.
 
 # We deviate from the original idea
 
@@ -16,14 +14,30 @@ For this to work, all sites must accept complex passwords of length 16 (default 
 
 By doing this we were slowly deviating from the main benefit of LessPass: "Stop wasting your time synchronizing your encrypted vault."
 
-
 # Lastpass Data Breach
 
-Last December 22, 2022, Lastpass (one of the most popular password managers) made an worrying announcement: a data breach exposed users' encrypted password vaults. We don't know how many password vaults were compromised in the breach and how many users were affected. We also know that some information such as URLs of registered sites were not encrypted.
+Last December 22, Lastpass (one of the most popular password managers) made an worrying announcement: a data breach exposed users' encrypted password vaults. We don't know how many password vaults were compromised in the breach and how many users were affected. We also know that some information such as URLs of registered sites were not encrypted.
 
 The more I read articles on the subject, the more I discovered the danger in which the users of Lastpass were because of this unencrypted data. Even data like URLs. I realized that my users were potentially in more danger than I thought. All password profiles are not encrypted in LessPass Database. An example password profile:
 
-     {'id': <uuid>, 'login': 'contact@lesspass.com', 'site': 'example.org', 'lowercase': True, 'uppercase': True, 'symbols': False, ' numbers': True, 'counter': 1, 'length': 16, 'version': 2, 'created': '2019-11-03T11:12:25.987522Z', 'modified': '2021-11-03T11 :12:25.987603Z'}
+```
+     {
+          "id": "uuid",
+          "login": "contact@lesspass.com",
+          "site": "example.org",
+          "lowercase": true,
+          "uppercase": true,
+          "symbols": false,
+          " numbers": true,
+          "counter": 1,
+          "length": 16,
+          "version": 2,
+          "created": "2019-11-03T11:12:25.987522Z",
+          "modified": "2021-11-03T11 :12:25.987603Z"
+     }
+```
+
+These profiles should be encrypted. It takes a lot of work to encrypt current user data.
 
 # Maintenance cost
 
@@ -49,8 +63,8 @@ LessPass will still exist but in its static version. Without database. Back to b
 
 # Calendar
 
- * ASAP: update web extension to help user exporting they passwords
- * ASAP: update all applications to refuse new accounts
- * ASAP: update all applications to show this blog post
- * March 1, 2023: I will stop the server
- * June 1, 2023: I will delete the latest backup forever
+- ASAP: update web extension to help user exporting they passwords
+- ASAP: update all applications to refuse new accounts
+- ASAP: update all applications to show this blog post
+- March 1, 2023: I will stop the server
+- June 1, 2023: I will delete the latest backup forever
