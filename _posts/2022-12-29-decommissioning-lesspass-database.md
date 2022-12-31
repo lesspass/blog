@@ -41,7 +41,8 @@ These profiles should be encrypted. It takes a lot of work to encrypt current us
 
 # Maintenance cost
 
-Maintain the LessPass service for free has a cost. It's a cost in time, in money to pay the server, the software licenses ($315/year). I want to reduce those loads to focus on something else.
+Maintain the LessPass service for free has a cost. It's a cost in time, in money to pay the server and the software licenses.
+It's not so much the financial cost that's the problem. It's more the mental burden of having to make changes to keep my users safe and not having the time to do it.
 
 # Find the motivation
 
@@ -49,7 +50,13 @@ On LessPass I always liked developing on it, but over time, I lost motivation. N
 
 # And oh wait, how am I doing?
 
-For all LessPass Database users, I added an option on the CLI (`--export`) and soon on the web extension to export their passwords in plain text in a CSV file that works with Bitwarden and Google Passwords. If you want to export your LessPass passwords, you can.
+For all LessPass Database users, here are the option to export your passwords: 
+
+  * use the [LessPass CLI](https://github.com/lesspass/lesspass/#cli) with the `--export` option
+  * use the Chrome extension version 9.6.7 sign in and open the export page
+  * use the web site https://www.lesspass.com/ sign in and open the export page
+
+The export produce a CSV file that works with Bitwarden and Google Passwords.
 
 # I didn't know my data was not encrypted, can I delete my account ?
 
@@ -57,14 +64,14 @@ To completely delete your account from LessPass Database, simply use the iOS or 
 
 # I'm sorry
 
-It's not easy to give up. LessPass is the biggest project I've worked on, had fun on, learned from. The community is wonderful. Thank you for using LessPass. :heart:
+It's not easy to give up. LessPass is the biggest project I've worked on, had fun on, learned from. The community is wonderful. Thank you for using LessPass. ♥
 
 LessPass will still exist but in its static version. Without database. Back to basics.
 
 # Calendar
 
-- ASAP: update web extension to help user exporting they passwords
-- ASAP: update all applications to refuse new accounts
-- ASAP: update all applications to show this blog post
+- on going: update web extension to help user exporting they passwords
+- on going: update all applications to refuse new accounts
+- on going: update all applications to show this blog post
 - March 1, 2023: I will stop the server
 - June 1, 2023: I will delete the latest backup forever
