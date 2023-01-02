@@ -52,9 +52,10 @@ On LessPass I always liked developing on it, but over time, I lost motivation. N
 
 For all LessPass Database users, here are the option to export your passwords: 
 
-  * use the [LessPass CLI](https://github.com/lesspass/lesspass/#cli) with the `--export` option
-  * use the Chrome extension version 9.6.7 sign in and open the export page
-  * use the web site https://www.lesspass.com/ sign in and open the export page
+  * use the [LessPass CLI](https://github.com/lesspass/lesspass/#cli) v10.2.1+ with the `--export` option
+  * use the Chrome extension version v9.6.8+ sign in and open the export page
+  * use the Firefox extension version v9.6.9+ sign in and open the export page
+  * use the web site https://www.lesspass.com/ v10.0.1+ sign in and open the export page
 
 The export produce a CSV file that works with Bitwarden and Google Passwords.
 
@@ -70,8 +71,10 @@ LessPass will still exist but in its static version. Without database. Back to b
 
 # Calendar
 
-- on going: update web extension to help user exporting they passwords
-- on going: update all applications to refuse new accounts
-- on going: update all applications to show this blog post
+- done: update cli to help users export their passwords.
+- done: update web extension to help users export their passwords.
+- done: update web site to help users export their passwords.
+- done: update all applications to refuse new accounts
+- on going: push the mobile version which displays a warning to connected users
 - March 1, 2023: I will stop the server
 - June 1, 2023: I will delete the latest backup forever
