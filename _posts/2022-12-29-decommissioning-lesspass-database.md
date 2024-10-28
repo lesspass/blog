@@ -4,7 +4,7 @@ title: "Decommissioning LessPass Database"
 author: "Guillaume Vincent"
 ---
 
-TLDR: LessPass Database server will be turned off on March 1th, 2023. The static version of LessPass, the web extension and the mobile versions remain in place.
+TLDR: LessPass Database server will be turned off on ~~March 1th, 2023~~ November 1th, 2024. The static version of LessPass, the web extension and the mobile versions remain in place.
 
 # We deviate from the original idea
 
@@ -69,12 +69,3 @@ It's not easy to give up. LessPass is the biggest project I've worked on, had fu
 
 LessPass will still exist but in its static version. Without database. Back to basics.
 
-# Calendar
-
-- done: update cli to help users export their passwords.
-- done: update web extension to help users export their passwords.
-- done: update web site to help users export their passwords.
-- done: update all applications to refuse new accounts
-- on going: push the mobile version which displays a warning to connected users
-- March 1, 2023: I will stop the server
-- June 1, 2023: I will delete the latest backup forever
